@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :measures
+
   resources :enquirymeasures
 
   resources :enquiries

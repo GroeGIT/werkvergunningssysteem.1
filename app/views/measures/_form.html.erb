@@ -1,0 +1,13 @@
+<%= simple_form_for(@measure) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :measurement %>
+    <%= f.input :type %>
+    <%= f.association :enquirymeasure %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
