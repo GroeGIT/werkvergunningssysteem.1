@@ -1,4 +1,5 @@
 ActiveAdmin.register Enquiry do
+  permit_params :reference, :location, :description, :amount, :date
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
