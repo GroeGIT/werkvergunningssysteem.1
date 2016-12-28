@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Enquiry:</strong>
+  <%= @enquirymeasure.enquiry %>
+</p>
+
+<p>
+  <strong>Done:</strong>
+  <%= @enquirymeasure.done %>
+</p>
+
+<p>
+  <strong>Needed:</strong>
+  <%= @enquirymeasure.needed %>
+</p>
+
+<p>
+  <strong>Responsible:</strong>
+  <%= @enquirymeasure.responsible %>
+</p>
+
+<%= link_to 'Edit', edit_enquirymeasure_path(@enquirymeasure) %> |
+<%= link_to 'Back', enquirymeasures_path %>

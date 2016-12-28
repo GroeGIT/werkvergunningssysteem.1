@@ -1,0 +1,1 @@
+json.array! @enquirymeasures, partial: 'enquirymeasures/enquirymeasure', as: :enquirymeasure

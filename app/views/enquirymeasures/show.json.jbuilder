@@ -1,0 +1,1 @@
+json.partial! "enquirymeasures/enquirymeasure", enquirymeasure: @enquirymeasure
